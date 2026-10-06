@@ -23,17 +23,23 @@ hypotekarna-kalkulacka-v2/
 make this structure within the folder
 ````
 
+**Output:** Created the requested folder and file structure (empty `.md` files plus `.claude/.gitkeep`).
+
 ## 2
 
 ````
 initialize git commit all files and push them into new public gitHub repo
 ````
 
+**Output:** Initialized git, committed all 11 files and pushed them to a new public GitHub repo, `Edij94/hypotekarna-kalkulacka-v2`.
+
 ## 3
 
 ````
 Write all of my prompts within this session in prompts.md file, modify CLAUDE.md in this folder, so that every prompt is added to prompts.md
 ````
+
+**Output:** Wrote prompts 1–3 into `docs/v1/prompts.md` and added a prompt-logging rule to `CLAUDE.md`.
 
 ## 4
 
@@ -59,6 +65,8 @@ Branch: main
 Working directory: D:\pda\hypotekarna-kalkulacka-v2
 </create-pr-command>
 ````
+
+**Output:** Created branch `add-prompt-logging`, committed the changes, pushed it and opened PR #1 (ready for review).
 
 ## 5
 
@@ -143,3 +151,19 @@ It's great commit and push the file
 ````
 commit it to main and remove add-prompt-logging branch
 ````
+
+## 5
+
+````
+modify claude.md so that each log features small description of your output to each promt
+````
+
+**Output:** Updated `CLAUDE.md` so every prompt log entry also includes a short description of Claude's output.
+
+## 6
+
+````
+yes, backfill and commit and push
+````
+
+**Output:** Backfilled `**Output:**` descriptions for entries 1–4, then committed and pushed to the `add-prompt-logging` branch (PR #1).
