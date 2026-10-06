@@ -358,3 +358,19 @@ commit and push all files
 ````
 
 **Output:** Committed all files (app, tests, tooling, prompt log) and pushed to origin/main.
+
+## 38
+
+````
+fill readme file
+````
+
+**Output:** Filled the empty `README.md` with an overview, features, input ranges, run/test instructions (including the `file://` caveat), project structure and links to the docs. Not committed.
+
+## 39
+
+````
+commit and push it
+````
+
+**Output:** Committed `README.md` and the prompt log (prompts 38-39) and pushed to `origin/main`.
