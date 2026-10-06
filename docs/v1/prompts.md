@@ -137,3 +137,9 @@ Accept all except for number format, use slovak
 ````
 It's great commit and push the file
 ````
+
+## 18
+
+````
+commit it to main and remove add-prompt-logging branch
+````
