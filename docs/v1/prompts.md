@@ -243,3 +243,19 @@ commit and push all changes
 ````
 
 **Output:** Committed the architecture doc and prompt log updates on `main` and pushed to `origin/main`.
+
+## 27
+
+````
+Read docs/v1/01-functional.md and docs/v1/02-architecture.md. Propose test scenarios in the required table. List edge cases I have not mentioned. Add info such as: test name, level, purpose,input and output, type. Ask me questions if needed show result, if approved write it to 03-test-scenarios.md
+````
+
+**Output:** Read the functional spec and architecture, asked four format/scope questions, then presented a draft test-scenario table (unit, integration, E2E), a list of unmentioned edge cases and open decisions in chat for approval. Nothing written to `03-test-scenarios.md` yet.
+
+## 28
+
+````
+approve all, commit and push
+````
+
+**Output:** Wrote `docs/v1/03-test-scenarios.md` with the approved unit, integration and E2E scenario tables, edge cases and decisions D1-D8, then committed and pushed to `origin/main`.
