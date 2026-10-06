@@ -259,3 +259,30 @@ approve all, commit and push
 ````
 
 **Output:** Wrote `docs/v1/03-test-scenarios.md` with the approved unit, integration and E2E scenario tables, edge cases and decisions D1-D8, then committed and pushed to `origin/main`.
+
+## 29
+
+````
+You are an independent reviewer. You did not write this plan.
+Read only docs/v1/01-functional.md, 02-architecture.md, 03-test-scenarios.md.
+Do not trust claims; check them.
+1. Coverage: every requirement has a module and a test; every test checks a real requirement.
+2. Find ambiguous requirements that allow two implementations with different results.
+3. List missing edge cases and invalid inputs.
+4. For 3 out-of-scope features, describe exactly which modules must change.
+5. Recompute every reference value in a separate script. Do not estimate.
+Return numbered findings as a table with severity (blocker / major / minor) and what each affects.
+Do not modify any file.
+
+Save all the findings to 04-review.md
+````
+
+**Output:** Reviewed the three docs independently, recomputed all reference values with exact-arithmetic and float-simulation scripts, and saved 20 numbered findings (4 blockers, 7 majors, 9 minors), coverage matrix, ambiguities, edge cases and out-of-scope impact analysis to `docs/v1/04-review.md`.
+
+## 30
+
+````
+transfer all data to file with correct spelling, delete incorrect one, then commit and push
+````
+
+**Output:** Moved the review into the correctly spelled `docs/v1/04-review.md` (the existing file was empty), deleted `04-review.md`, then committed and pushed.
