@@ -152,7 +152,7 @@ It's great commit and push the file
 commit it to main and remove add-prompt-logging branch
 ````
 
-## 5
+## 19
 
 ````
 modify claude.md so that each log features small description of your output to each promt
@@ -160,7 +160,7 @@ modify claude.md so that each log features small description of your output to e
 
 **Output:** Updated `CLAUDE.md` so every prompt log entry also includes a short description of Claude's output.
 
-## 6
+## 20
 
 ````
 yes, backfill and commit and push
