@@ -1,0 +1,30 @@
+:root { --fg: #1c2530; --muted: #5d6b7a; --line: #d9e0e7; --accent: #1f6feb; --err: #b42318; --warn: #8a5a00; --bg: #f4f6f9; }
+* { box-sizing: border-box; }
+body { margin: 0; font: 16px/1.4 system-ui, sans-serif; color: var(--fg); background: var(--bg); }
+main { max-width: 960px; margin: 0 auto; padding: 24px 16px 48px; }
+h1 { margin: 0 0 16px; }
+h2 { margin: 0 0 12px; font-size: 1.1rem; }
+.panel { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+
+#form { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 16px; }
+.field label { display: block; font-weight: 600; margin-bottom: 4px; }
+.field input { width: 100%; padding: 8px; font: inherit; border: 1px solid var(--line); border-radius: 6px; }
+.field.invalid input { border-color: var(--err); }
+.field .error { color: var(--err); font-size: .875rem; margin-top: 4px; }
+.field .error:empty { display: none; }
+.field .warning { color: var(--warn); font-size: .875rem; margin-top: 4px; }
+
+.summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; margin: 0; }
+.summary div { background: var(--bg); border-radius: 6px; padding: 10px 12px; }
+.summary dt { color: var(--muted); font-size: .875rem; }
+.summary dd { margin: 2px 0 0; font-size: 1.25rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+
+.chart-box { position: relative; height: 280px; margin-bottom: 16px; }
+.message { color: var(--muted); }
+
+/* Fixed height: the page does not grow with the term; the table scrolls inside. */
+.schedule { height: 420px; overflow: auto; border: 1px solid var(--line); border-radius: 6px; }
+.schedule table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.schedule th, .schedule td { padding: 6px 10px; text-align: right; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.schedule th { position: sticky; top: 0; background: #eef2f6; z-index: 1; }
+.schedule .empty-note { padding: 12px; color: var(--muted); }

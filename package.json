@@ -1,0 +1,19 @@
+{
+  "name": "hypotekarna-kalkulacka",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Static mortgage calculator (annuity), vanilla ES modules",
+  "scripts": {
+    "start": "http-server . -p 4173 -c-1 --silent",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "golden": "python tests/reference/reference.py"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "http-server": "^14.1.1",
+    "jsdom": "^30.1.2",
+    "vitest": "^5.0.3"
+  }
+}

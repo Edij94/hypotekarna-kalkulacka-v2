@@ -334,3 +334,27 @@ commit and push this plan
 ````
 
 **Output:** Committed `05-plan.md` and the prompt log (prompts 31-33) and pushed to `origin/main`.
+
+## 35
+
+````
+Read 05-plan.md build mortgage calculator using this plan
+````
+
+**Output:** Built the calculator from `05-plan.md`: added the unit tests for the existing pure modules, the UI modules, `main.js`, `index.html`, `styles.css`, and the integration and Playwright suites. All 61 Vitest tests and 12 e2e tests pass, and rerunning the Python reference reproduces the golden file.
+
+## 36
+
+````
+the result doesn't work, has only text and has no ways to interact
+````
+
+**Output:** Reproduced the symptom: opening `index.html` as a file blocks the ES modules, leaving only headings. The app works over HTTP, so I added a visible warning for `file://` and told the user to run `npm start`.
+
+## 37
+
+````
+commit and push all files
+````
+
+**Output:** Committed all files (app, tests, tooling, prompt log) and pushed to origin/main.
