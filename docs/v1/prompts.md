@@ -74,11 +74,15 @@ Working directory: D:\pda\hypotekarna-kalkulacka-v2
 Interwiev me about technical scope of mortgage calculator v1, include questions about: project goal, functional requirements, inputs and their bounds, domain rules, what's out of scope of v1, open questions. Ask one question at the time, after this show me result if approved write it to docs/v1/01_functional.md
 ````
 
+**Output:** Started a one-question-at-a-time interview about the mortgage calculator v1 scope (goal, functional requirements, inputs and bounds, domain rules, out of scope, open questions).
+
 ## 6
 
 ````
 A
 ````
+
+**Output:** Recorded the answer and asked the next interview question.
 
 ## 7
 
@@ -86,11 +90,15 @@ A
 D
 ````
 
+**Output:** Recorded the answer and asked the next interview question.
+
 ## 8
 
 ````
 D
 ````
+
+**Output:** Recorded the answer and asked the next interview question.
 
 ## 9
 
@@ -98,11 +106,15 @@ D
 A
 ````
 
+**Output:** Recorded the answer and asked the next interview question.
+
 ## 10
 
 ````
 A, B, C, tests with Vitest
 ````
+
+**Output:** Recorded the choices, including testing with Vitest, and continued the interview.
 
 ## 11
 
@@ -110,11 +122,15 @@ A, B, C, tests with Vitest
 A, down payment in %
 ````
 
+**Output:** Recorded the choices, including down payment entered in percent, and continued the interview.
+
 ## 12
 
 ````
 A, yes to both
 ````
+
+**Output:** Recorded both confirmations and continued the interview.
 
 ## 13
 
@@ -122,11 +138,15 @@ A, yes to both
 A, month numbers only
 ````
 
+**Output:** Recorded the choice (schedule shows month numbers only, no calendar dates) and continued the interview.
+
 ## 14
 
 ````
 add Charts and visualizations
 ````
+
+**Output:** Added charts and visualizations to the scope and asked follow-up questions about them.
 
 ## 15
 
@@ -134,11 +154,15 @@ add Charts and visualizations
 A, B, Chart.js, English
 ````
 
+**Output:** Recorded the choices, including Chart.js and an English UI, and continued toward the final summary.
+
 ## 16
 
 ````
 Accept all except for number format, use slovak
 ````
+
+**Output:** Showed the proposed spec; accepted everything except number format, which was changed to Slovak style (`1 234,56 €`).
 
 ## 17
 
@@ -146,11 +170,15 @@ Accept all except for number format, use slovak
 It's great commit and push the file
 ````
 
+**Output:** Wrote the final spec to `docs/v1/01-functional.md`, then committed and pushed it with the prompt log.
+
 ## 18
 
 ````
 commit it to main and remove add-prompt-logging branch
 ````
+
+**Output:** Committed the pending changes to `main` and removed the `add-prompt-logging` branch.
 
 ## 19
 
@@ -167,3 +195,11 @@ yes, backfill and commit and push
 ````
 
 **Output:** Backfilled `**Output:**` descriptions for entries 1–4, then committed and pushed to the `add-prompt-logging` branch (PR #1).
+
+## 21
+
+````
+yes, write descriptions for 5–18
+````
+
+**Output:** Added `**Output:**` descriptions for entries 5–18, inferred from the commit history and `01-functional.md`.
