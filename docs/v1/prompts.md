@@ -59,3 +59,81 @@ Branch: main
 Working directory: D:\pda\hypotekarna-kalkulacka-v2
 </create-pr-command>
 ````
+
+## 5
+
+````
+Interwiev me about technical scope of mortgage calculator v1, include questions about: project goal, functional requirements, inputs and their bounds, domain rules, what's out of scope of v1, open questions. Ask one question at the time, after this show me result if approved write it to docs/v1/01_functional.md
+````
+
+## 6
+
+````
+A
+````
+
+## 7
+
+````
+D
+````
+
+## 8
+
+````
+D
+````
+
+## 9
+
+````
+A
+````
+
+## 10
+
+````
+A, B, C, tests with Vitest
+````
+
+## 11
+
+````
+A, down payment in %
+````
+
+## 12
+
+````
+A, yes to both
+````
+
+## 13
+
+````
+A, month numbers only
+````
+
+## 14
+
+````
+add Charts and visualizations
+````
+
+## 15
+
+````
+A, B, Chart.js, English
+````
+
+## 16
+
+````
+Accept all except for number format, use slovak
+````
+
+## 17
+
+````
+It's great commit and push the file
+````
