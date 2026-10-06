@@ -286,3 +286,51 @@ transfer all data to file with correct spelling, delete incorrect one, then comm
 ````
 
 **Output:** Moved the review into the correctly spelled `docs/v1/04-review.md` (the existing file was empty), deleted `04-review.md`, then committed and pushed.
+
+## 31
+
+````
+Read docs/v1/01-functional.md to docs/v1/04-review.md. Write docs/v1/05-plan.md in the required structure. Acceptance criteria must list concrete tests only
+````
+
+**Output:** Wrote `docs/v1/05-plan.md`: decisions P1-P10 closing the review findings, corrected reference values (recomputed with an exact script), and steps 0-8 whose acceptance criteria are only concrete test IDs with expected values. The repo defines no "required structure", so I chose one and said so in the file.
+
+## 32
+
+````
+Read 05-plan.md, without writing code, explain what you would build first and how you would know you are done
+````
+
+**Output:** Read `05-plan.md` and explained, without writing code, that the first build is Step 0 (tooling plus the golden fixtures from `tools/reference.py`, closed by test T-00) followed by the pure modules, and that "done" means the Section 5 definition of done: both test suites green with no skips, every test ID present, golden file reproducible, and docs synced (Step 8).
+
+## 32
+
+````
+Do not reference any other file in the plan, it has to be copmlete start to end plan for whole project. Make it concise and complete.  Suggested categories: Objectives of V1, scope, Acceptance criteria, building order, defenition of done, building tools
+````
+
+**Output:** Rewrote `docs/v1/05-plan.md` as a self-contained plan with no references to other files: objectives, scope (requirements, rules, parsing, architecture, out of scope), acceptance criteria as concrete tests only, building order, definition of done and tools.
+
+## 33
+
+````
+Read 05-plan.md, without writing code, explain what you would build first and how you would know you are done
+````
+
+**Output:** Re-read the rewritten self-contained `05-plan.md` and explained, without writing code, that the first build is Step 0 (tooling, smoke test and the Python golden-schedule reference), then the pure modules, and that "done" is Section 5: both suites green with no skips, every test ID present, golden file reproducible, FR1-FR9 each covered by a passing test. Noted that `prompts.md` has two entries numbered 32.
+
+## 34
+
+````
+does plan feature only scripts, or html and visuals to?
+````
+
+**Output:** Answered that the plan covers the HTML page, CSS, summary, schedule table and two Chart.js charts, not only scripts, and noted that visuals are verified by DOM and Chart.js data checks rather than by looks.
+
+## 33
+
+````
+commit and push this plan
+````
+
+**Output:** Committed `05-plan.md` and the prompt log (prompts 31-33) and pushed to `origin/main`.
