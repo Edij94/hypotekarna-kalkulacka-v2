@@ -203,3 +203,11 @@ yes, write descriptions for 5–18
 ````
 
 **Output:** Added `**Output:**` descriptions for entries 5–18, inferred from the commit history and `01-functional.md`.
+
+## 22
+
+````
+yes, push it
+````
+
+**Output:** Pushed the pending commit to `origin/main`, with this prompt logged.
