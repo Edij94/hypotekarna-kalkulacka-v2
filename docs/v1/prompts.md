@@ -211,3 +211,35 @@ yes, push it
 ````
 
 **Output:** Pushed the pending commit to `origin/main`, with this prompt logged.
+
+## 23
+
+````
+Read docs/v1/01-functional.md. Propose a modular architecture. For each module give responsibility, interface and which requirements it implements. Ask me quetions, then show result before writing it to 02-architecture.md. Suggested topics are stack, modules, dependencies direction, data model, decisions
+````
+
+**Output:** Read the functional spec, asked five design questions (module format, UI style, money math, validation), and presented a draft architecture in chat for review. Nothing written to `02-architecture.md` yet.
+
+## 24
+
+````
+Why did you choose this data model, what are its benefits, can it be done differently
+````
+
+**Output:** Explained the reasoning behind the proposed data model (raw/validated/result split, integer cents, a flat state object), its benefits, and alternatives such as floats, decimal libraries, normalized schedule data, and a discriminated-union state. Nothing was written to `02-architecture.md`.
+
+## 25
+
+````
+use the discriminated union and derive state, then write it
+````
+
+**Output:** Wrote `docs/v1/02-architecture.md` (it existed but was empty) with the stack, modules, dependency direction, data model, data flow, decisions and testing notes. It uses a discriminated-union `Outcome` derived from `raw` as the only stored state.
+
+## 26
+
+````
+commit and push all changes
+````
+
+**Output:** Committed the architecture doc and prompt log updates on `main` and pushed to `origin/main`.
