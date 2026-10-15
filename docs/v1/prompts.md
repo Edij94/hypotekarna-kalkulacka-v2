@@ -513,3 +513,20 @@ Write your insights to docs/v2/05-review then commit and push
 ````
 
 **Output:** Read all docs/v2 files (and the v1 golden/reference files for checking claims) and wrote an independent review to `docs/v2/05-review.md` covering coverage, ambiguities, missing edge cases and consistency. No existing file was modified, apart from this log.
+
+## 55
+
+````
+read all files in docs/v2
+Write a full plan of building v2 based on those. Include a separate section for individual part of app and one for tests and requirements, resolve inconsistencies with the simplest option, add it to 06-plan
+````
+
+**Output:** Read all docs/v2 files and wrote `docs/v2/06-plan.md`: scope, 24 inconsistency decisions (simplest option, e.g. saved calculations/Supabase cut from this release), contract, per-part sections (calculations, API, front-end, Supabase later), requirements R1-R26 with tests and traceability, and build order. Not committed.
+
+## 56
+
+````
+Yes, keep saving and Supabase out of this release. Commit and push 06-plan.
+````
+
+**Output:** Confirmed saving and Supabase stay out of this release, then committed `docs/v2/06-plan.md` and the prompt log and pushed to the remote.
