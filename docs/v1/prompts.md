@@ -479,3 +479,19 @@ commit and push changes
 ````
 
 **Output:** Committed `docs/v2/02-calculations.md`, `docs/v2/03-frontend.md` and the prompt log, then pushed to the remote.
+
+## 52
+
+````
+read all files in docs/v2 suggest an API to connect all the parts of app-v2, write a plan of implemantation, ask me questions, show result then write it to 04-api.md
+````
+
+**Output:** Read all docs/v2 files, asked 4 design questions (FastAPI, saved calculations, same origin, single 422 error), and wrote `docs/v2/04-api.md` with endpoints, error format, Supabase table, folder structure, tests and an implementation plan.
+
+## 53
+
+````
+commit and push 04
+````
+
+**Output:** Committed `docs/v2/04-api.md` and the prompt log, then pushed to the remote.
