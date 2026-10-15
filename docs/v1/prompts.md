@@ -495,3 +495,21 @@ commit and push 04
 ````
 
 **Output:** Committed `docs/v2/04-api.md` and the prompt log, then pushed to the remote.
+
+## 54
+
+````
+You are an independent reviewer, you didn't make this plan
+ read all files in docs/v2
+Check all of this:
+1. Coverage: every requirement has a module and a test; every test checks a real requirement.
+2. Find ambiguous requirements that allow two implementations with different results.
+3. List missing edge cases and invalid inputs.
+
+4.  Consistency: all parts of the plan go to the similar goal
+
+Don't modify any file
+Write your insights to docs/v2/05-review then commit and push
+````
+
+**Output:** Read all docs/v2 files (and the v1 golden/reference files for checking claims) and wrote an independent review to `docs/v2/05-review.md` covering coverage, ambiguities, missing edge cases and consistency. No existing file was modified, apart from this log.
