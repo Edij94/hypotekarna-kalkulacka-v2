@@ -374,3 +374,27 @@ commit and push it
 ````
 
 **Output:** Committed `README.md` and the prompt log (prompts 38-39) and pushed to `origin/main`.
+
+## 40
+
+````
+create a new folder in docs called v2
+````
+
+**Output:** Created the empty folder `docs/v2`.
+
+## 41
+
+````
+create a file 01-goal.md, write a general architecture constructed from parts: front-end, API, python-calculations, supabase. Don't add any technical details. Show rasult before commiting
+````
+
+**Output:** Created `docs/v2/01-goal.md` with a high-level, non-technical architecture of four parts (front-end, API, python calculations, Supabase). Not committed.
+
+## 42
+
+````
+commit and push changes
+````
+
+**Output:** Committed `docs/v2/01-goal.md` and the prompt log (prompts 40-42) and pushed to `origin/main`.
