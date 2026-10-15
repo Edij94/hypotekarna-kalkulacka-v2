@@ -470,12 +470,12 @@ R3 code-only
 Read files in docs/v2/01-goals, based on it suggest a plan Front-end structure ask me questions, show me result before commiting
 ````
 
-**Output:** (pending)
+**Output:** Read `docs/v2/01-goal.md` and `02-calculations.md`, asked 9 questions about the front-end (React+Vite+TS, calculator only, live debounce, Slovak numbers, Vitest+Playwright, plain CSS, wait for API, front-end converts units) and wrote the plan to `docs/v2/03-frontend.md`. Not committed.
 
-## 50
+## 51
 
 ````
-Commit both files, don't push.
+commit and push changes
 ````
 
-**Output:** Committed `docs/v2/02-calculations.md` and the prompt log (prompts 45-50) locally without pushing.
+**Output:** Committed `docs/v2/02-calculations.md`, `docs/v2/03-frontend.md` and the prompt log, then pushed to the remote.
