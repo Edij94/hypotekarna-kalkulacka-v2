@@ -398,3 +398,19 @@ commit and push changes
 ````
 
 **Output:** Committed `docs/v2/01-goal.md` and the prompt log (prompts 40-42) and pushed to `origin/main`.
+
+## 43
+
+````
+what will it do?
+````
+
+**Output:** Explained what `git pull --rebase` followed by `git push` would do with the local commit and the remote `06-retro.md` commit. Nothing was changed except this log entry.
+
+## 44
+
+````
+do a rebase
+````
+
+**Output:** Committed the prompt log (prompts 43-44), rebased the local commits onto `origin/main` and pushed.
