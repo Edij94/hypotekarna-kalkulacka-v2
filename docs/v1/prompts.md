@@ -530,3 +530,27 @@ Yes, keep saving and Supabase out of this release. Commit and push 06-plan.
 ````
 
 **Output:** Confirmed saving and Supabase stay out of this release, then committed `docs/v2/06-plan.md` and the prompt log and pushed to the remote.
+
+## 57
+
+````
+read docs/v2/06-plan describe how would you build v2 and how would you know it's ready
+````
+
+**Output:** Read `docs/v2/06-plan.md` and summarized the build approach (order of steps, part by part) and the readiness criteria (tests per requirement, golden cases, end-to-end smoke test).
+
+## 58
+
+````
+Find all files related to functionality of v1 and put them to a new folder in top level app-v1
+````
+
+**Output:** Moved the v1 app (index.html, styles.css, src, tests, package files, test configs, README, plus node_modules) into a new top-level `app-v1/` using `git mv`; the 61 unit/integration tests still pass from there. Docs, CLAUDE.md and .claude stay at the root.
+
+## 59
+
+````
+commit and push changes
+````
+
+**Output:** Committed the app-v1 move and prompt log, then pushed to the remote.
